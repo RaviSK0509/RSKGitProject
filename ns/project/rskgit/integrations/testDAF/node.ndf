@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Ravi.Shankar.Kumar1@ibm.com</value>
-    <value name="createdDate">2026-11-22T12:04:41.744509711Z</value>
-    <value name="lastModifiedDate">2026-11-22T12:04:41.744509711Z</value>
+    <value name="lastModifiedBy">Ravi.Shankar.Kumar1@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-22T12:05:19.611280332Z</value>
     <value name="displayName">testDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -55,21 +54,15 @@
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Date</value>
-          <value name="groupName">date</value>
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">dateTimeFormat</value>
-          <value name="serviceName">pub.date:dateTimeFormat</value>
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">true</value>
         </record>
-        <number name="ui_step_index" type="Long">1</number>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
       </record>
     </record>
     <value name="modifiedBy">Ravi.Shankar.Kumar1@ibm.com</value>
