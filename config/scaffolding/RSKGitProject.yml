@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/RaviSK0509
   gitUsername: RaviSK0509
   gitBranch: main
+services:
+- serviceName: project.rskgit.integrations:testDAF
+  packages:
+  - name: RSKGitProject
+    version: "1.0"
+- serviceName: pub.date:dateTimeFormat
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
