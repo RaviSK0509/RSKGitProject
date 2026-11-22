@@ -12,7 +12,7 @@ services:
   packages:
   - name: RSKGitProject
     version: "1.0"
-- serviceName: pub.date:dateTimeFormat
+- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 12.1.0.0.1223
